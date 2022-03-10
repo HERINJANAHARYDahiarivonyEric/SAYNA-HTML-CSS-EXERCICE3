@@ -1,0 +1,266 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif ; 
+    font-family: Helvetica, Arial, sans-serif, 'Raleway';
+    font-family: 'Raleway', Arial, sans-serif
+}
+
+header {
+    background-image: url(header_bg.jpg);
+    padding: 1% 15%;
+    text-align: center;
+    align-items: center;
+}
+
+header div img {
+    width: 90%;
+}
+
+.White a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.Green a {
+    color: #3d9f96;
+}
+
+.header {
+    background-image: url(seperator1.jpg);
+    padding: 5% 15% 0% 15%;
+    text-align: center;
+}
+
+.header h1 {
+    color: #FFFFFF;
+}
+
+#Green {
+    color: #3d9f96;
+    margin: 0%;
+}
+
+.header p {
+    color: #ababab;
+    padding: 0% 10% 3% 10%;
+}
+
+.header button {
+    background-color: #3d9f96;
+    color: #FFFFFF;
+    border-style: none;
+    padding: 5% 0;
+}
+
+.ligne {
+    margin: 0%;
+}
+
+.center {
+    text-align: center;
+    padding: 0 40%;
+}
+
+.header img {
+    padding: 10% 5% 0 5%;
+}
+
+.centre {
+    text-align: center;
+    padding: 0 15%;
+    background-color: #f7f7f7;
+}
+
+.marge {
+    padding: 4%;
+}
+
+.main1 {
+    padding: 5% 15% 0% 15%;
+    text-align: center;
+}
+
+.main1 p {
+    color: #ababab;
+    padding: 3% 20%;
+}
+
+.main2 {
+    background-image: url(map_bg.png);
+    padding: 5% 15%;
+}
+
+.left img {
+    float: left;
+    padding: 2%;
+}
+
+.left p {
+    color: #ababab;
+    padding: 4% 0;
+}
+
+.PadPlay {
+    text-align: center;
+    align-items: center;
+}
+
+.Pad img {
+    width: 80%;
+}
+
+.Play {
+    position: absolute;
+    width: 22%;
+}
+
+.right img {
+    float: right;
+    padding: 2%;
+}
+
+.right h3 {
+    text-align: right;
+}
+
+.right p {
+    color: #ababab;
+    padding: 4% 0;
+    text-align: right;
+}
+
+.main3 {
+    background-image: url(seperator2.jpg);
+    padding: 4% 15%;
+    text-align: center;
+}
+
+.main3 img {
+    width: 10%;
+}
+
+.main3 p {
+    color: #f9f9f9;
+    margin: 0%;
+    padding: 3% 20% 0% 20%;
+}
+
+.main4 {
+    background-color: #f7f7f7;
+    padding: 5% 15%;
+}
+
+.main4 h2 {
+    padding-bottom: 5%;
+}
+
+.main5 {
+    padding: 5% 15%;
+}
+
+.main5 h2 {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.main5 p {
+    padding-bottom: 4%;
+    color: #ababab;
+}
+
+.main5 button {
+    background-color: #3d9f96;
+    color: #FFFFFF;
+    border-style: none;
+    padding: 3%;
+    width: 40%;
+}
+
+.bottom {
+    width: 40%;
+}
+
+.main6 {
+    background-color: #f7f7f7;
+    padding: 5% 0% 5% 15%;
+}
+
+.main6 p {
+    color: #ababab;
+}
+
+.SAYNA img {
+    padding-bottom: 5%;
+}
+
+.main6 h3 {
+    padding: 5%;
+}
+
+.INFO {
+    text-align: center;
+}
+
+footer {
+    padding: 2% 15%;
+    color: #ababab;
+}
+
+@media all and (max-width: 941px) and (min-width: 360px)
+{
+    .Home {
+        display: none;
+    }
+    .Green {
+        display: none;
+    }
+    header {
+        padding: 2% 15%;
+    }
+    .marge a img { width: 100%;}
+
+    .main2 {
+        flex-direction: column; background-image: none; align-items: center;
+    }
+    .main2 p {
+        padding-top: 0; text-align: center;
+    }
+    .left img {
+        width: 20%;
+    }
+    .left h3 {
+        text-align: left; font-size: 100%;
+    }
+    .PadPlay {
+        background-image: url(map_bg.png);
+    }
+    .Play {
+        padding: 17%;
+    }
+    .right img {
+        float: left; width: 20%;
+    }
+    .right h3 {
+        text-align: left; font-size: 100%;
+    }
+    .option {
+        padding: 0% 22%;
+    }
+    .main3 img {
+        width: 30%;
+    }
+    .main4 {
+        align-items: center; text-align: center;
+    }
+    .Left div,.Right div {
+        align-items: center; text-align: center;
+    }
+    .bottom {
+        padding-bottom: 15%; width: 85%; align-items: center; padding-left: 20%;
+    }
+    .main6 {
+        flex-direction: column; text-align: center; padding-right: 15%;
+    }
+    footer {
+        flex-direction: column; text-align: center; align-items: center;
+    }
+}
